@@ -1,6 +1,6 @@
 import 'drug_selection_screen.dart';
 import 'package:flutter/material.dart';
-
+import 'package:flutter/services.dart';
 
 void main() {
   runApp(PaedsDosingApp());
@@ -33,6 +33,9 @@ class _InputScreenState extends State<InputScreen> {
   bool isPreterm = false;
   String gestationalAge = '';
 
+  final _decimalInputFormatter =
+  FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d{0,2}'));
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -44,7 +47,8 @@ class _InputScreenState extends State<InputScreen> {
           child: Column(
             children: [
               TextFormField(
-                keyboardType: TextInputType.number,
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
+                inputFormatters: [_decimalInputFormatter],
                 decoration: InputDecoration(labelText: 'Age'),
                 onChanged: (val) => age = val,
               ),
@@ -60,7 +64,8 @@ class _InputScreenState extends State<InputScreen> {
                 decoration: InputDecoration(labelText: 'Age Unit'),
               ),
               TextFormField(
-                keyboardType: TextInputType.number,
+                keyboardType: TextInputType.numberWithOptions(decimal: true),
+                inputFormatters: [_decimalInputFormatter],
                 decoration: InputDecoration(labelText: 'Weight (kg)'),
                 onChanged: (val) => weight = val,
               ),
@@ -73,9 +78,10 @@ class _InputScreenState extends State<InputScreen> {
               ),
               if (isPreterm)
                 TextFormField(
-                  keyboardType: TextInputType.number,
-                  decoration: InputDecoration(
-                      labelText: 'Gestational Age (weeks)'),
+                  keyboardType: TextInputType.numberWithOptions(decimal: true),
+                  inputFormatters: [_decimalInputFormatter],
+                  decoration:
+                  InputDecoration(labelText: 'Gestational Age (weeks)'),
                   onChanged: (val) => gestationalAge = val,
                 ),
               SizedBox(height: 20),
@@ -93,7 +99,6 @@ class _InputScreenState extends State<InputScreen> {
                     ),
                   );
                 },
-
                 child: Text('Continue'),
               ),
             ],
