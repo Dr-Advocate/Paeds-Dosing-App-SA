@@ -1,0 +1,809 @@
+[
+  {
+    "name": "Aciclovir",
+    "indication": "Varicella (chickenpox), zoster, herpes simplex",
+    "doseMgPerKg": 20,
+    "frequency": "8 hourly",
+    "maxSingleDoseMg": 800
+  },
+  {
+    "name": "Adrenaline",
+    "indication": "Anaphylaxis, cardiac arrest, croup, septic shock",
+    "doseMgPerKg": 0.01,
+    "frequency": "As per emergency protocol",
+    "maxSingleDoseMg": 0.5
+  },
+  {
+    "name": "Albendazole",
+    "indication": "Soil-transmitted helminths",
+    "doseMgPerKg": 5,
+    "frequency": "Once daily for 3 days",
+    "maxSingleDoseMg": 400
+  },
+  {
+    "name": "Albumin",
+    "indication": "Hypoalbuminaemia, oncotic support",
+    "doseMgPerKg": 1000,
+    "frequency": "Single dose or repeat as per clinical need",
+    "maxSingleDoseMg": 25000
+  },
+  {
+    "name": "Alfacalcidol",
+    "indication": "Vitamin D–dependent rickets, hypocalcaemia",
+    "doseMgPerKg": 0.05,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 1
+  },
+  {
+    "name": "Alprostadil",
+    "indication": "Maintain ductal patency in duct-dependent lesions",
+    "doseMgPerKg": 0.05,
+    "frequency": "Continuous IV infusion",
+    "maxSingleDoseMg": 0.1
+  },
+  {
+    "name": "Amikacin",
+    "indication": "Second-line neonatal sepsis",
+    "doseMgPerKg": 15,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 750
+  },
+  {
+    "name": "Amlodipine",
+    "indication": "Chronic hypertension",
+    "doseMgPerKg": 0.2,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 10
+  },
+  {
+    "name": "Amiodarone",
+    "indication": "Arrhythmias (SVT, VT)",
+    "doseMgPerKg": 5,
+    "frequency": "Slow IV bolus or infusion",
+    "maxSingleDoseMg": 300
+  },
+  {
+    "name": "Amitriptyline",
+    "indication": "Neuropathic pain, depression",
+    "doseMgPerKg": 0.25,
+    "frequency": "Once daily (at night)",
+    "maxSingleDoseMg": 25
+  },
+  {
+    "name": "Amoxicillin",
+    "indication": "Mild pneumonia, sinusitis",
+    "doseMgPerKg": 25,
+    "frequency": "8 hourly",
+    "maxSingleDoseMg": 500
+  },
+  {
+    "name": "Ampicillin",
+    "indication": "Neonatal sepsis, meningitis",
+    "doseMgPerKg": 50,
+    "frequency": "8–12 hourly depending on age and gestation",
+    "maxSingleDoseMg": 2000
+  },
+  {
+    "name": "Amphotericin B",
+    "indication": "Fungal septicaemia",
+    "doseMgPerKg": 1.5,
+    "frequency": "Once daily (IV infusion)",
+    "maxSingleDoseMg": 1.5
+  },
+  {
+    "name": "Artemether/lumefantrine",
+    "indication": "Uncomplicated malaria",
+    "doseMgPerKg": 1.5,
+    "frequency": "At 0, 8, 24, 36, 48 and 60 hours",
+    "maxSingleDoseMg": 80
+  },
+  {
+    "name": "Artesunate",
+    "indication": "Severe malaria",
+    "doseMgPerKg": 3,
+    "frequency": "At 0, 12, 24 hours then daily",
+    "maxSingleDoseMg": 240
+  },
+  {
+    "name": "Atazanavir/ritonavir (ATV/r)",
+    "indication": "HIV treatment (with NRTIs)",
+    "doseMgPerKg": 15,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 300
+  },
+  {
+    "name": "Atenolol",
+    "indication": "Hypertension, arrhythmias",
+    "doseMgPerKg": 1,
+    "frequency": "Once or twice daily",
+    "maxSingleDoseMg": 50
+  },
+  {
+    "name": "Atropine",
+    "indication": "Bradycardia, organophosphate poisoning",
+    "doseMgPerKg": 0.02,
+    "frequency": "Repeat every 3–5 min in emergencies",
+    "maxSingleDoseMg": 0.5
+  },
+  {
+    "name": "Azathioprine",
+    "indication": "Autoimmune/inflammatory disorders",
+    "doseMgPerKg": 2,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 150
+  },
+  {
+    "name": "Ceftriaxone",
+    "indication": "Severe infection, meningitis",
+    "doseMgPerKg": 100,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 4000
+  },
+  {
+    "name": "Gentamicin",
+    "indication": "Neonatal sepsis",
+    "doseMgPerKg": 5,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 400
+  },
+  {
+    "name": "Paracetamol",
+    "indication": "Pain and fever",
+    "doseMgPerKg": 15,
+    "frequency": "6 hourly",
+    "maxSingleDoseMg": 1000
+  }
+,
+  {
+    "name": "Baclofen",
+    "indication": "Spasticity in cerebral palsy or spinal cord injury",
+    "doseMgPerKg": 0.3,
+    "frequency": "8 hourly",
+    "maxSingleDoseMg": 20
+  },
+  {
+    "name": "Beclomethasone",
+    "indication": "Persistent asthma (inhaled corticosteroid)",
+    "doseMgPerKg": 0.001,
+    "frequency": "12 hourly",
+    "maxSingleDoseMg": 200
+  },
+  {
+    "name": "Benzathine benzylpenicillin",
+    "indication": "Rheumatic fever prophylaxis, syphilis",
+    "doseMgPerKg": 50,
+    "frequency": "Single IM dose or every 3–4 weeks",
+    "maxSingleDoseMg": 1200
+  },
+  {
+    "name": "Benzodiazepines (diazepam)",
+    "indication": "Seizure control, sedation",
+    "doseMgPerKg": 0.2,
+    "frequency": "As needed for seizures",
+    "maxSingleDoseMg": 10
+  },
+  {
+    "name": "Benzylpenicillin (Penicillin G)",
+    "indication": "Severe bacterial infections including meningitis",
+    "doseMgPerKg": 50,
+    "frequency": "6–12 hourly IV",
+    "maxSingleDoseMg": 2000
+  },
+  {
+    "name": "Betamethasone",
+    "indication": "Inflammatory skin conditions (topical)",
+    "doseMgPerKg": 0.05,
+    "frequency": "Apply thinly once or twice daily",
+    "maxSingleDoseMg": 0.5
+  },
+  {
+    "name": "Biperiden",
+    "indication": "Extrapyramidal side effects from antipsychotics",
+    "doseMgPerKg": 0.05,
+    "frequency": "8–12 hourly",
+    "maxSingleDoseMg": 4
+  },
+  {
+    "name": "Boomslang antivenom",
+    "indication": "Boomslang bite envenomation",
+    "doseMgPerKg": 1,
+    "frequency": "Single dose IV infusion",
+    "maxSingleDoseMg": 1
+  },
+  {
+    "name": "Budesonide",
+    "indication": "Persistent asthma",
+    "doseMgPerKg": 0.001,
+    "frequency": "12 hourly (inhaled)",
+    "maxSingleDoseMg": 200
+  },
+  {
+    "name": "Bupivacaine",
+    "indication": "Regional anaesthesia",
+    "doseMgPerKg": 2,
+    "frequency": "Single or continuous block",
+    "maxSingleDoseMg": 150
+  },
+
+    {
+      "name": "Caffeine citrate",
+      "indication": "Apnoea of prematurity",
+      "doseMgPerKg": 20,
+      "frequency": "Loading dose, then maintenance every 24 hours",
+      "maxSingleDoseMg": 20
+    },
+    {
+      "name": "Calcium gluconate",
+      "indication": "Symptomatic or acute hypocalcaemia, cardiac membrane stabilisation",
+      "doseMgPerKg": 100,
+      "frequency": "6–8 hourly or as needed in emergencies",
+      "maxSingleDoseMg": 2000
+    },
+    {
+      "name": "Carbamazepine",
+      "indication": "Partial seizures, trigeminal neuralgia",
+      "doseMgPerKg": 5,
+      "frequency": "8–12 hourly",
+      "maxSingleDoseMg": 400
+    },
+    {
+      "name": "Chlorpheniramine",
+      "indication": "Allergic rhinitis, urticaria",
+      "doseMgPerKg": 0.1,
+      "frequency": "8 hourly",
+      "maxSingleDoseMg": 4
+    },
+    {
+      "name": "Ciprofloxacin",
+      "indication": "Multidrug-resistant infections (specialist use)",
+      "doseMgPerKg": 10,
+      "frequency": "12 hourly",
+      "maxSingleDoseMg": 500
+    },
+    {
+      "name": "Clonazepam",
+      "indication": "Seizure control, myoclonic epilepsy",
+      "doseMgPerKg": 0.01,
+      "frequency": "8–12 hourly",
+      "maxSingleDoseMg": 2
+    },
+    {
+      "name": "Clotrimazole",
+      "indication": "Topical fungal infections",
+      "doseMgPerKg": 0.1,
+      "frequency": "Apply twice daily",
+      "maxSingleDoseMg": 1
+    },
+    {
+      "name": "Cotrimoxazole",
+      "indication": "Pneumocystis pneumonia, HIV prophylaxis",
+      "doseMgPerKg": 6,
+      "frequency": "12 hourly",
+      "maxSingleDoseMg": 240
+    },
+    {
+      "name": "Cyanocobalamin (Vitamin B12)",
+      "indication": "Vitamin B12 deficiency",
+      "doseMgPerKg": 0.01,
+      "frequency": "Once daily or weekly depending on severity",
+      "maxSingleDoseMg": 1
+    },
+    {
+      "name": "Dexamethasone",
+      "indication": "Croup, cerebral oedema, inflammation",
+      "doseMgPerKg": 0.15,
+      "frequency": "6–12 hourly",
+      "maxSingleDoseMg": 10
+    },
+    {
+      "name": "Dexchlorpheniramine",
+      "indication": "Allergic conditions",
+      "doseMgPerKg": 0.1,
+      "frequency": "6–8 hourly",
+      "maxSingleDoseMg": 2
+    },
+    {
+      "name": "Dextrose 10%",
+      "indication": "Neonatal or paediatric hypoglycaemia",
+      "doseMgPerKg": 250,
+      "frequency": "As needed (bolus), then infusion",
+      "maxSingleDoseMg": 500
+    },
+    {
+      "name": "Diazepam",
+      "indication": "Seizures, status epilepticus, sedation",
+      "doseMgPerKg": 0.3,
+      "frequency": "As needed",
+      "maxSingleDoseMg": 10
+    },
+    {
+      "name": "Diclofenac",
+      "indication": "Moderate pain, inflammation",
+      "doseMgPerKg": 1,
+      "frequency": "8 hourly",
+      "maxSingleDoseMg": 75
+    },
+    {
+      "name": "Digoxin",
+      "indication": "Heart failure, supraventricular tachycardia",
+      "doseMgPerKg": 0.01,
+      "frequency": "12 hourly (with loading)",
+      "maxSingleDoseMg": 0.25
+    },
+    {
+      "name": "Dimenhydrinate",
+      "indication": "Motion sickness, nausea and vomiting",
+      "doseMgPerKg": 1,
+      "frequency": "8 hourly",
+      "maxSingleDoseMg": 50
+    },
+    {
+      "name": "Diphenhydramine",
+      "indication": "Allergic reactions, anaphylaxis adjunct",
+      "doseMgPerKg": 1,
+      "frequency": "8 hourly",
+      "maxSingleDoseMg": 50
+    },
+    {
+      "name": "Doxycycline",
+      "indication": "Atypical pneumonia, rickettsial infections (age >8 years)",
+      "doseMgPerKg": 2.2,
+      "frequency": "12 hourly",
+      "maxSingleDoseMg": 100
+    }
+,
+  {
+    "name": "Erythromycin",
+    "indication": "Penicillin allergy alternative, pertussis, neonatal conjunctivitis",
+    "doseMgPerKg": 10,
+    "frequency": "6 hourly",
+    "maxSingleDoseMg": 500
+  },
+  {
+    "name": "Ferrous sulphate",
+    "indication": "Iron deficiency anaemia",
+    "doseMgPerKg": 3,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 200
+  },
+  {
+    "name": "Fluconazole",
+    "indication": "Candidiasis, cryptococcal infections",
+    "doseMgPerKg": 6,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 400
+  },
+  {
+    "name": "Fludrocortisone",
+    "indication": "Congenital adrenal hyperplasia",
+    "doseMgPerKg": 0.0001,
+    "frequency": "Once or twice daily",
+    "maxSingleDoseMg": 0.2
+  },
+  {
+    "name": "Flumazenil",
+    "indication": "Benzodiazepine overdose reversal",
+    "doseMgPerKg": 0.01,
+    "frequency": "Single IV dose (may repeat after 1 min)",
+    "maxSingleDoseMg": 0.5
+  },
+  {
+    "name": "Fluoxetine",
+    "indication": "Adolescent depression",
+    "doseMgPerKg": 0.25,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 20
+  },
+  {
+    "name": "Fluticasone",
+    "indication": "Persistent asthma (inhaled corticosteroid)",
+    "doseMgPerKg": 0.001,
+    "frequency": "12 hourly",
+    "maxSingleDoseMg": 250
+  },
+  {
+    "name": "Folic acid",
+    "indication": "Megaloblastic anaemia, supplementation",
+    "doseMgPerKg": 0.1,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 5
+  },
+  {
+    "name": "Furosemide",
+    "indication": "Oedema, congestive cardiac failure",
+    "doseMgPerKg": 1,
+    "frequency": "8–12 hourly",
+    "maxSingleDoseMg": 40
+  }
+,
+  {
+    "name": "Gentamicin",
+    "indication": "Neonatal sepsis, systemic Gram-negative infections",
+    "doseMgPerKg": 5,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 400
+  },
+  {
+    "name": "Glucose (Dextrose 10%)",
+    "indication": "Neonatal or paediatric hypoglycaemia",
+    "doseMgPerKg": 250,
+    "frequency": "As bolus or infusion",
+    "maxSingleDoseMg": 500
+  },
+  {
+    "name": "Griseofulvin",
+    "indication": "Tinea capitis and other dermatophyte infections",
+    "doseMgPerKg": 10,
+    "frequency": "Once daily with food",
+    "maxSingleDoseMg": 500
+  },
+  {
+    "name": "Haloperidol",
+    "indication": "Acute agitation, psychosis",
+    "doseMgPerKg": 0.05,
+    "frequency": "8–12 hourly",
+    "maxSingleDoseMg": 5
+  },
+  {
+    "name": "Heparin",
+    "indication": "Anticoagulation, catheter patency",
+    "doseMgPerKg": 50,
+    "frequency": "IV bolus, infusion, or line flush",
+    "maxSingleDoseMg": 5000
+  },
+  {
+    "name": "Hydralazine",
+    "indication": "Severe hypertension, hypertensive crisis",
+    "doseMgPerKg": 0.3,
+    "frequency": "8 hourly (IV/PO)",
+    "maxSingleDoseMg": 20
+  },
+  {
+    "name": "Hydrocortisone",
+    "indication": "Adrenal insufficiency, asthma, shock",
+    "doseMgPerKg": 2,
+    "frequency": "6–8 hourly (IV/IM)",
+    "maxSingleDoseMg": 100
+  },
+  {
+    "name": "Hydroxyurea",
+    "indication": "Sickle cell disease (hospital-level care)",
+    "doseMgPerKg": 15,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 1000
+  },
+  {
+    "name": "Hyoscine butylbromide",
+    "indication": "Abdominal cramping, colic (age >6 yrs)",
+    "doseMgPerKg": 0.3,
+    "frequency": "8 hourly",
+    "maxSingleDoseMg": 20
+  }
+,
+  {
+    "name": "Insulin (short-acting)",
+    "indication": "Diabetic ketoacidosis, Type 1 diabetes mellitus",
+    "doseMgPerKg": 0.1,
+    "frequency": "Hourly IV infusion (DKA) or per glucose monitoring",
+    "maxSingleDoseMg": 10
+  },
+  {
+    "name": "Insulin (long-acting)",
+    "indication": "Basal insulin for Type 1 diabetes",
+    "doseMgPerKg": 0.3,
+    "frequency": "Once or twice daily",
+    "maxSingleDoseMg": 30
+  },
+  {
+    "name": "Isoniazid",
+    "indication": "TB treatment and prophylaxis",
+    "doseMgPerKg": 10,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 300
+  },
+  {
+    "name": "Ivermectin",
+    "indication": "Scabies, strongyloidiasis (age >15 kg)",
+    "doseMgPerKg": 0.2,
+    "frequency": "Once, repeat in 7 days if needed",
+    "maxSingleDoseMg": 12
+  },
+  {
+    "name": "Ketamine",
+    "indication": "Procedural sedation, anaesthesia",
+    "doseMgPerKg": 1,
+    "frequency": "Single IV or IM dose",
+    "maxSingleDoseMg": 100
+  },
+  {
+    "name": "Ketoconazole",
+    "indication": "Fungal skin infections (topical)",
+    "doseMgPerKg": 0.1,
+    "frequency": "Apply twice daily",
+    "maxSingleDoseMg": 2
+  }
+,
+  {
+    "name": "Lamivudine",
+    "indication": "HIV treatment (NRTI backbone)",
+    "doseMgPerKg": 4,
+    "frequency": "12 hourly",
+    "maxSingleDoseMg": 150
+  },
+  {
+    "name": "Levetiracetam",
+    "indication": "Partial and generalised seizures",
+    "doseMgPerKg": 10,
+    "frequency": "12 hourly",
+    "maxSingleDoseMg": 1000
+  },
+  {
+    "name": "Lopinavir/ritonavir (LPV/r)",
+    "indication": "HIV treatment",
+    "doseMgPerKg": 12,
+    "frequency": "12 hourly",
+    "maxSingleDoseMg": 400
+  },
+  {
+    "name": "Lorazepam",
+    "indication": "Status epilepticus",
+    "doseMgPerKg": 0.05,
+    "frequency": "As needed (IV/IM)",
+    "maxSingleDoseMg": 4
+  },
+  {
+    "name": "Magnesium sulphate",
+    "indication": "Severe asthma, seizures",
+    "doseMgPerKg": 25,
+    "frequency": "Single IV dose or infusion",
+    "maxSingleDoseMg": 2000
+  },
+  {
+    "name": "Metformin",
+    "indication": "Type 2 diabetes mellitus",
+    "doseMgPerKg": 10,
+    "frequency": "12 hourly with meals",
+    "maxSingleDoseMg": 850
+  },
+  {
+    "name": "Metronidazole",
+    "indication": "Anaerobic infections, amoebiasis",
+    "doseMgPerKg": 7.5,
+    "frequency": "8 hourly",
+    "maxSingleDoseMg": 500
+  },
+  {
+    "name": "Morphine",
+    "indication": "Moderate to severe pain, palliative care",
+    "doseMgPerKg": 0.1,
+    "frequency": "4 hourly",
+    "maxSingleDoseMg": 10
+  },
+  {
+    "name": "Mupirocin",
+    "indication": "Topical skin infections (e.g. impetigo)",
+    "doseMgPerKg": 0.1,
+    "frequency": "Apply 2–3 times daily",
+    "maxSingleDoseMg": 1
+  },
+  {
+    "name": "Naloxone",
+    "indication": "Opioid overdose reversal",
+    "doseMgPerKg": 0.01,
+    "frequency": "Repeat every 2–3 minutes as needed",
+    "maxSingleDoseMg": 2
+  },
+  {
+    "name": "Nevirapine",
+    "indication": "HIV treatment or postnatal prophylaxis",
+    "doseMgPerKg": 15,
+    "frequency": "Once or twice daily depending on regimen",
+    "maxSingleDoseMg": 200
+  },
+  {
+    "name": "Nifedipine",
+    "indication": "Hypertension, hypertensive emergencies",
+    "doseMgPerKg": 0.25,
+    "frequency": "8–12 hourly",
+    "maxSingleDoseMg": 10
+  },
+  {
+    "name": "Nitrofurantoin",
+    "indication": "Urinary tract infections",
+    "doseMgPerKg": 1.5,
+    "frequency": "6 hourly with food",
+    "maxSingleDoseMg": 100
+  },
+  {
+    "name": "Nystatin",
+    "indication": "Oral and skin candidiasis",
+    "doseMgPerKg": 100000,
+    "frequency": "4–6 hourly (oral suspension or topical)",
+    "maxSingleDoseMg": 500000
+  }
+,
+  {
+    "name": "Ondansetron",
+    "indication": "Nausea and vomiting (chemotherapy, post-op)",
+    "doseMgPerKg": 0.15,
+    "frequency": "8 hourly as needed",
+    "maxSingleDoseMg": 8
+  },
+  {
+    "name": "Oral rehydration solution (ORS)",
+    "indication": "Dehydration due to diarrhoea",
+    "doseMgPerKg": 75,
+    "frequency": "Per stool loss or maintenance therapy",
+    "maxSingleDoseMg": 1000
+  },
+  {
+    "name": "Phenobarbitone",
+    "indication": "Seizures, status epilepticus, neonatal convulsions",
+    "doseMgPerKg": 5,
+    "frequency": "Once or twice daily",
+    "maxSingleDoseMg": 200
+  },
+  {
+    "name": "Phenytoin",
+    "indication": "Tonic-clonic seizures, status epilepticus",
+    "doseMgPerKg": 15,
+    "frequency": "Loading then once or twice daily maintenance",
+    "maxSingleDoseMg": 1000
+  },
+  {
+    "name": "Piperacillin/tazobactam",
+    "indication": "Broad-spectrum antibiotic for hospital infections",
+    "doseMgPerKg": 100,
+    "frequency": "8 hourly (IV)",
+    "maxSingleDoseMg": 4000
+  },
+  {
+    "name": "Prednisone",
+    "indication": "Asthma, nephrotic syndrome, inflammatory conditions",
+    "doseMgPerKg": 2,
+    "frequency": "Once or twice daily",
+    "maxSingleDoseMg": 60
+  },
+  {
+    "name": "Promethazine",
+    "indication": "Allergic reactions, nausea (age >2 years)",
+    "doseMgPerKg": 0.5,
+    "frequency": "12 hourly",
+    "maxSingleDoseMg": 25
+  },
+  {
+    "name": "Propranolol",
+    "indication": "Hypertension, arrhythmias, thyrotoxicosis",
+    "doseMgPerKg": 1,
+    "frequency": "8–12 hourly",
+    "maxSingleDoseMg": 40
+  },
+  {
+    "name": "Pyridoxine",
+    "indication": "Isoniazid toxicity prophylaxis or deficiency",
+    "doseMgPerKg": 1,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 50
+  }
+,
+  {
+    "name": "Rifampicin",
+    "indication": "Tuberculosis treatment and prophylaxis",
+    "doseMgPerKg": 15,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 600
+  },
+  {
+    "name": "Risperidone",
+    "indication": "Behavioural disorders, psychosis, autism spectrum disorders",
+    "doseMgPerKg": 0.025,
+    "frequency": "Once or twice daily",
+    "maxSingleDoseMg": 2
+  },
+  {
+    "name": "Salbutamol",
+    "indication": "Acute bronchospasm, asthma",
+    "doseMgPerKg": 0.15,
+    "frequency": "4–6 hourly via nebuliser or inhaler",
+    "maxSingleDoseMg": 5
+  },
+  {
+    "name": "Sodium bicarbonate",
+    "indication": "Severe metabolic acidosis, DKA, hyperkalaemia",
+    "doseMgPerKg": 1,
+    "frequency": "Single IV dose or infusion depending on pH",
+    "maxSingleDoseMg": 100
+  },
+  {
+    "name": "Sodium valproate",
+    "indication": "Epilepsy (generalised or partial seizures)",
+    "doseMgPerKg": 20,
+    "frequency": "12 hourly",
+    "maxSingleDoseMg": 1000
+  },
+  {
+    "name": "Spironolactone",
+    "indication": "Nephrotic syndrome, congestive heart failure",
+    "doseMgPerKg": 2,
+    "frequency": "Once or twice daily",
+    "maxSingleDoseMg": 100
+  },
+  {
+    "name": "Streptomycin",
+    "indication": "Drug-resistant TB (specialist use)",
+    "doseMgPerKg": 15,
+    "frequency": "Once daily IM",
+    "maxSingleDoseMg": 1000
+  },
+  {
+    "name": "Sulfasalazine",
+    "indication": "Juvenile idiopathic arthritis, inflammatory bowel disease",
+    "doseMgPerKg": 40,
+    "frequency": "12 hourly",
+    "maxSingleDoseMg": 1000
+  },
+  {
+    "name": "Tenofovir",
+    "indication": "HIV treatment (in combination regimens)",
+    "doseMgPerKg": 8,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 300
+  },
+  {
+    "name": "Tetracycline (topical)",
+    "indication": "Mild acne vulgaris",
+    "doseMgPerKg": 0.1,
+    "frequency": "Apply twice daily",
+    "maxSingleDoseMg": 1
+  },
+  {
+    "name": "Theophylline",
+    "indication": "Chronic asthma (specialist only)",
+    "doseMgPerKg": 5,
+    "frequency": "12 hourly",
+    "maxSingleDoseMg": 300
+  },
+  {
+    "name": "Timolol (topical)",
+    "indication": "Infantile haemangiomas",
+    "doseMgPerKg": 0.1,
+    "frequency": "Apply once or twice daily",
+    "maxSingleDoseMg": 1
+  }
+,
+  {
+    "name": "Vancomycin",
+    "indication": "Serious Gram-positive infections, MRSA",
+    "doseMgPerKg": 15,
+    "frequency": "6 hourly (IV)",
+    "maxSingleDoseMg": 750
+  },
+  {
+    "name": "Vitamin A",
+    "indication": "Vitamin A deficiency, measles",
+    "doseMgPerKg": 10,
+    "frequency": "Single dose on Day 1 and repeat on Day 2 if needed",
+    "maxSingleDoseMg": 200000
+  },
+  {
+    "name": "Vitamin D (Cholecalciferol)",
+    "indication": "Nutritional rickets, deficiency",
+    "doseMgPerKg": 0.01,
+    "frequency": "Once daily",
+    "maxSingleDoseMg": 1000
+  },
+  {
+    "name": "Vitamin K (Phytomenadione)",
+    "indication": "Bleeding due to deficiency or prevention in neonates",
+    "doseMgPerKg": 0.5,
+    "frequency": "Single IM or IV dose",
+    "maxSingleDoseMg": 10
+  },
+  {
+    "name": "Zidovudine (AZT)",
+    "indication": "HIV treatment and PMTCT",
+    "doseMgPerKg": 8,
+    "frequency": "12 hourly",
+    "maxSingleDoseMg": 300
+  }
+]
