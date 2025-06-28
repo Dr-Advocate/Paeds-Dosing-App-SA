@@ -74738,7 +74738,7 @@ s.M$=$.ab()
 s.y2$=0
 this.aH()},
 L(a){var s,r,q=this,p=null,o=A.ahr(A.dA("Select Drug",p,p,p,p,p,p))
-if(J.oG(q.d))s=A.mi(A.dA("No drugs found in JSON.",p,p,p,p,p,p),p,p)
+if(J.oG(q.d))s=A.mi(A.dA("No drugs found in JSON Bitch.",p,p,p,p,p,p),p,p)
 else{s=A.ao5(!0,B.cZ,!1,p,!0,B.Y,p,A.aDs(),q.f,p,p,p,p,p,2,A.vJ(p,new A.hb(4,B.dv,B.kJ),p,p,p,p,p,p,!0,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,"Search for a drug...",!0,p,A.ai9(B.D0,p),p,p,p,p,p,p,p,p,p,p,p),B.aa,!0,p,!0,p,!1,p,B.dg,p,p,p,p,p,p,p,1,p,p,!1,"\u2022",p,p,p,p,p,!1,p,p,!1,p,!0,p,B.lG,p,p,B.cI,B.ce,p,p,p,p,p,p,p,!0,B.aW,p,B.xD,p,p,p,p)
 r=J.cq(q.e)
 s=A.TM(A.c([new A.d9(B.Cp,s,p),A.ave(new A.w5(new A.a5P(new A.aap(q),r,!0,!0,!0,p),p,B.aZ,!1,p,p,B.kx,!1,p,r,B.aa,B.wv,p,B.Y,B.ak,p))],t.E),B.bF,B.c2,B.j3)}return A.aiG(o,s)}}
