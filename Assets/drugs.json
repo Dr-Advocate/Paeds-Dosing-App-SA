@@ -1,3 +1,9 @@
+flutter pub get
+flutter build web --base-href="/Paeds-Dosing-App-SA/"
+xcopy /E /Y /I build\web .
+git add .
+git commit -m "Fix JSON asset path for deployment"
+git push origin gh-pages --force
 [
   {
     "name": "Aciclovir",
