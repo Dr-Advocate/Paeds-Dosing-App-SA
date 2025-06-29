@@ -1,5 +1,16 @@
 [
   {
+    "name": "Abacavir",
+    "indication": "HIV infection as part of antiretroviral therapy (ART)",
+    "doseMgPerKg": 8,
+    "frequency": "12 hourly",
+    "maxSingleDoseMg": 300,
+    "warnings": [
+      "⚠ Contraindicated in patients with HLA-B*5701 mutation (risk of hypersensitivity reaction)",
+      "⚠ Use as part of combination ART only — do not use as monotherapy"
+    ]
+  },
+  {
     "name": "Aciclovir",
     "indication": "Varicella (chickenpox), zoster, herpes simplex",
     "doseMgPerKg": 20,
@@ -151,6 +162,17 @@
     "doseMgPerKg": 3,
     "frequency": "At 0, 12, 24 hours then daily",
     "maxSingleDoseMg": 240
+  },
+  {
+    "name": "Aspirin",
+    "indication": "Kawasaki disease, antiplatelet agent, anti-inflammatory",
+    "doseMgPerKg": 3,
+    "frequency": "Once daily (antiplatelet) or 6 hourly (anti-inflammatory)",
+    "maxSingleDoseMg": 600,
+    "warnings": [
+      "⚠ Avoid in children <12 years due to risk of Reye's syndrome unless specifically indicated (e.g. Kawasaki disease)",
+      "⚠ Use lowest effective dose for shortest possible duration"
+    ]
   },
   {
     "name": "Atazanavir/ritonavir (ATV/r)",
@@ -1144,6 +1166,18 @@
     "maxSingleDoseMg": 10,
     "warnings": [
       "⚠ Dosage and route are age-specific: neonates typically receive 0.5–1 mg IM at birth"
+    ]
+  },
+  {
+    "name": "Warfarin",
+    "indication": "Anticoagulation for thromboembolic disorders",
+    "doseMgPerKg": 0.2,
+    "frequency": "Once daily (adjust based on INR)",
+    "maxSingleDoseMg": 10,
+    "warnings": [
+      "⚠ Not routinely used in neonates or infants without specialist guidance",
+      "⚠ Requires regular INR monitoring and dose adjustment",
+      "⚠ Interacts with many drugs and foods — closely monitor"
     ]
   },
   {
