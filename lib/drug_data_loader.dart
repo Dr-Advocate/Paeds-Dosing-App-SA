@@ -7,7 +7,10 @@ class Drug {
   final double doseMgPerKg;
   final String frequency;
   final double maxSingleDoseMg;
-  final List<String> warnings; // ✅ Not nullable (defaults to [])
+  final String formula;
+  final String route;
+  final String maxDoseNote;
+  final List<String> warnings;
 
   Drug({
     required this.name,
@@ -15,7 +18,10 @@ class Drug {
     required this.doseMgPerKg,
     required this.frequency,
     required this.maxSingleDoseMg,
-    this.warnings = const [], // ✅ Default to empty list
+    required this.formula,
+    required this.route,
+    required this.maxDoseNote,
+    this.warnings = const [],
   });
 
   factory Drug.fromJson(Map<String, dynamic> json) {
@@ -25,9 +31,12 @@ class Drug {
       doseMgPerKg: (json['doseMgPerKg'] as num).toDouble(),
       frequency: json['frequency'] ?? '',
       maxSingleDoseMg: (json['maxSingleDoseMg'] as num).toDouble(),
+      formula: json['formula'] ?? '',
+      route: json['route'] ?? '',
+      maxDoseNote: json['maxDoseNote'] ?? '',
       warnings: json['warnings'] != null
           ? List<String>.from(json['warnings'])
-          : [], // ✅ Safe fallback
+          : [],
     );
   }
 }

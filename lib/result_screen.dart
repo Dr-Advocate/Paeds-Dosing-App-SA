@@ -22,7 +22,6 @@ class ResultScreen extends StatefulWidget {
 
 class _ResultScreenState extends State<ResultScreen> {
   Drug? _match;
-  String _finalDoseText = '';
   double? _finalDose;
 
   @override
@@ -41,17 +40,12 @@ class _ResultScreenState extends State<ResultScreen> {
         doseMgPerKg: 0,
         frequency: '',
         maxSingleDoseMg: 0,
+        formula: '',
+        route: '',
+        maxDoseNote: '',
         warnings: [],
       ),
     );
-
-    if (match.doseMgPerKg == 0) {
-      setState(() {
-        _finalDoseText = 'No dose data available for ${widget.drug}.';
-        _match = match;
-      });
-      return;
-    }
 
     final weightKg = double.tryParse(widget.weight) ?? 0;
     final dose = weightKg * match.doseMgPerKg;
@@ -93,10 +87,12 @@ class _ResultScreenState extends State<ResultScreen> {
                 "${_finalDose?.toStringAsFixed(1) ?? '---'} mg per dose, ${_match!.frequency}",
                 style: TextStyle(fontSize: 18),
               ),
-              Text("(Max: ${_match!.maxSingleDoseMg} mg)", style: TextStyle(fontSize: 18)),
+              Text("Formula: ${_match!.formula}", style: TextStyle(fontSize: 18)),
+              Text("Route: ${_match!.route}", style: TextStyle(fontSize: 18)),
+              Text("Max: ${_match!.maxSingleDoseMg} mg (${_match!.maxDoseNote})", style: TextStyle(fontSize: 18)),
               SizedBox(height: 20),
-              if (_match!.warnings != null && _match!.warnings!.isNotEmpty)
-                ..._match!.warnings!.map((w) => Padding(
+              if (_match!.warnings.isNotEmpty)
+                ..._match!.warnings.map((w) => Padding(
                   padding: const EdgeInsets.only(top: 8.0),
                   child: Text(
                     w,
