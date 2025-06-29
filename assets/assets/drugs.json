@@ -1,10 +1,13 @@
 [
-{
+  {
     "name": "Aciclovir",
     "indication": "Varicella (chickenpox), zoster, herpes simplex",
     "doseMgPerKg": 20,
     "frequency": "8 hourly",
-    "maxSingleDoseMg": 800
+    "maxSingleDoseMg": 800,
+    "warnings": [
+      "⚠ Use age-specific dosing: >1 month to 1 year: 12.5 mg/kg; >1–6 years: 10 mg/kg; >6–12 years: 6 mg/kg"
+    ]
   },
   {
     "name": "Adrenaline",
@@ -18,7 +21,10 @@
     "indication": "Soil-transmitted helminths",
     "doseMgPerKg": 5,
     "frequency": "Once daily for 3 days",
-    "maxSingleDoseMg": 400
+    "maxSingleDoseMg": 400,
+    "warnings": [
+      "⚠ Avoid in children under 6 months unless under specialist supervision"
+    ]
   },
   {
     "name": "Albumin",
@@ -32,70 +38,112 @@
     "indication": "Vitamin D–dependent rickets, hypocalcaemia",
     "doseMgPerKg": 0.05,
     "frequency": "Once daily",
-    "maxSingleDoseMg": 1
+    "maxSingleDoseMg": 1,
+    "warnings": [
+      "⚠ Use with caution in neonates and preterm infants"
+    ]
   },
   {
     "name": "Alprostadil",
     "indication": "Maintain ductal patency in duct-dependent lesions",
     "doseMgPerKg": 0.05,
     "frequency": "Continuous IV infusion",
-    "maxSingleDoseMg": 0.1
+    "maxSingleDoseMg": 0.1,
+    "warnings": [
+      "⚠ Contraindicated in neonates with severe respiratory distress syndrome"
+    ]
   },
   {
     "name": "Amikacin",
     "indication": "Second-line neonatal sepsis",
     "doseMgPerKg": 15,
     "frequency": "Once daily",
-    "maxSingleDoseMg": 750
+    "maxSingleDoseMg": 750,
+    "warnings": [
+      "⚠ Adjust dosing interval for neonates and preterm infants based on gestational age"
+    ]
   },
   {
     "name": "Amlodipine",
     "indication": "Chronic hypertension",
     "doseMgPerKg": 0.2,
     "frequency": "Once daily",
-    "maxSingleDoseMg": 10
+    "maxSingleDoseMg": 10,
+    "warnings": [
+      "⚠ Approved for use in children ≥6 years; limited data under 6 years"
+    ]
   },
   {
     "name": "Amiodarone",
     "indication": "Arrhythmias (SVT, VT)",
     "doseMgPerKg": 5,
     "frequency": "Slow IV bolus or infusion",
-    "maxSingleDoseMg": 300
+    "maxSingleDoseMg": 300,
+    "warnings": [
+      "⚠ Use with extreme caution in infants and neonates; off-label use under specialist supervision"
+    ]
   },
   {
     "name": "Amitriptyline",
     "indication": "Neuropathic pain, depression",
     "doseMgPerKg": 0.25,
     "frequency": "Once daily (at night)",
-    "maxSingleDoseMg": 25
+    "maxSingleDoseMg": 25,
+    "warnings": [
+      "⚠ Not recommended in children under 12 years"
+    ]
   },
   {
     "name": "Amoxicillin",
     "indication": "Mild pneumonia, sinusitis",
     "doseMgPerKg": 25,
     "frequency": "8 hourly",
-    "maxSingleDoseMg": 500
+    "maxSingleDoseMg": 500,
+    "warnings": [
+      "⚠ Use with caution in infants <3 months; reduce maximum daily dose due to immature renal clearance"
+    ]
+  },
+  {
+    "name": "Amoxicillin/Clavulanic Acid (Augmentin)",
+    "indication": "Otitis media, sinusitis, lower respiratory infections, skin and soft tissue infections",
+    "doseMgPerKg": 30,
+    "frequency": "8 hourly",
+    "maxSingleDoseMg": 1000,
+    "warnings": [
+      "⚠ Use weight-band-based dosing in infants and young children: e.g., >2.5–3.5 kg (for 1–3 months), >3.5–5 kg (for 3–6 months), etc.",
+      "⚠ Dose must be adjusted for neonates and infants <3 months due to immature renal function",
+      "⚠ Use with caution in children <2 months unless directed by a specialist"
+    ]
   },
   {
     "name": "Ampicillin",
     "indication": "Neonatal sepsis, meningitis",
     "doseMgPerKg": 50,
     "frequency": "8–12 hourly depending on age and gestation",
-    "maxSingleDoseMg": 2000
+    "maxSingleDoseMg": 2000,
+    "warnings": [
+      "⚠ Dosing interval must be adjusted for preterm and low birth weight neonates"
+    ]
   },
   {
     "name": "Amphotericin B",
     "indication": "Fungal septicaemia",
     "doseMgPerKg": 1.5,
     "frequency": "Once daily (IV infusion)",
-    "maxSingleDoseMg": 1.5
+    "maxSingleDoseMg": 1.5,
+    "warnings": [
+      "⚠ Limited data in neonates; use with caution and monitor closely"
+    ]
   },
   {
     "name": "Artemether/lumefantrine",
     "indication": "Uncomplicated malaria",
     "doseMgPerKg": 1.5,
     "frequency": "At 0, 8, 24, 36, 48 and 60 hours",
-    "maxSingleDoseMg": 80
+    "maxSingleDoseMg": 80,
+    "warnings": [
+      "⚠ Not recommended in infants <2 months or <5 kg"
+    ]
   },
   {
     "name": "Artesunate",
@@ -109,297 +157,417 @@
     "indication": "HIV treatment (with NRTIs)",
     "doseMgPerKg": 15,
     "frequency": "Once daily",
-    "maxSingleDoseMg": 300
+    "maxSingleDoseMg": 300,
+    "warnings": [
+      "⚠ Avoid in infants <3 months or <5 kg due to risk of kernicterus"
+    ]
   },
   {
     "name": "Atenolol",
     "indication": "Hypertension, arrhythmias",
     "doseMgPerKg": 1,
     "frequency": "Once or twice daily",
-    "maxSingleDoseMg": 50
+    "maxSingleDoseMg": 50,
+    "warnings": [
+      "⚠ Use with caution in children <6 years; limited data available"
+    ]
   },
   {
     "name": "Atropine",
     "indication": "Bradycardia, organophosphate poisoning",
     "doseMgPerKg": 0.02,
     "frequency": "Repeat every 3–5 min in emergencies",
-    "maxSingleDoseMg": 0.5
+    "maxSingleDoseMg": 0.5,
+    "warnings": [
+      "⚠ Avoid ophthalmic use in infants <3 months due to risk of systemic toxicity"
+    ]
   },
   {
     "name": "Azathioprine",
     "indication": "Autoimmune/inflammatory disorders",
     "doseMgPerKg": 2,
     "frequency": "Once daily",
-    "maxSingleDoseMg": 150
+    "maxSingleDoseMg": 150,
+    "warnings": [
+      "⚠ Use with caution in children <1 year; dosing must be individualized and closely monitored"
+    ]
   },
   {
     "name": "Ceftriaxone",
     "indication": "Severe infection, meningitis",
     "doseMgPerKg": 100,
     "frequency": "Once daily",
-    "maxSingleDoseMg": 4000
+    "maxSingleDoseMg": 4000,
+    "warnings": [
+      "⚠ Contraindicated in neonates ≤28 days with jaundice, hypoalbuminaemia, or requiring IV calcium",
+      "⚠ Avoid in premature neonates ≤41 weeks postmenstrual age"
+    ]
   },
   {
     "name": "Gentamicin",
     "indication": "Neonatal sepsis",
     "doseMgPerKg": 5,
     "frequency": "Once daily",
-    "maxSingleDoseMg": 400
+    "maxSingleDoseMg": 400,
+    "warnings": [
+      "⚠ Dosing interval must be adjusted based on gestational and postnatal age"
+    ]
   },
   {
     "name": "Paracetamol",
     "indication": "Pain and fever",
     "doseMgPerKg": 15,
     "frequency": "6 hourly",
-    "maxSingleDoseMg": 1000
-  }
-,
+    "maxSingleDoseMg": 1000,
+    "warnings": [
+      "⚠ Reduce dose in chronically ill or malnourished children",
+      "⚠ Use age-specific maximum daily dose: lower limits in neonates and preterm infants"
+    ]
+  },
   {
     "name": "Baclofen",
     "indication": "Spasticity in cerebral palsy or spinal cord injury",
     "doseMgPerKg": 0.3,
     "frequency": "8 hourly",
-    "maxSingleDoseMg": 20
+    "maxSingleDoseMg": 20,
+    "warnings": [
+      "⚠ Use with caution in children under 2 years due to limited safety data"
+    ]
   },
   {
     "name": "Beclomethasone",
     "indication": "Persistent asthma (inhaled corticosteroid)",
     "doseMgPerKg": 0.001,
     "frequency": "12 hourly",
-    "maxSingleDoseMg": 200
+    "maxSingleDoseMg": 200,
+    "warnings": [
+      "⚠ Most formulations approved for children ≥6 years; use under 6 years requires spacer and supervision"
+    ]
   },
   {
     "name": "Benzathine benzylpenicillin",
     "indication": "Rheumatic fever prophylaxis, syphilis",
     "doseMgPerKg": 50,
     "frequency": "Single IM dose or every 3–4 weeks",
-    "maxSingleDoseMg": 1200
+    "maxSingleDoseMg": 1200,
+    "warnings": [
+      "⚠ For neonates <3 kg or <30 days: specialist consultation required for safe dosing"
+    ]
   },
   {
     "name": "Benzodiazepines (diazepam)",
     "indication": "Seizure control, sedation",
     "doseMgPerKg": 0.2,
     "frequency": "As needed for seizures",
-    "maxSingleDoseMg": 10
+    "maxSingleDoseMg": 10,
+    "warnings": [
+      "⚠ Not for long-term use in children or adolescents",
+      "⚠ Dose must be adjusted based on age: max 5 mg/day if <5 years, 10 mg/day if >5 years"
+    ]
   },
   {
     "name": "Benzylpenicillin (Penicillin G)",
     "indication": "Severe bacterial infections including meningitis",
     "doseMgPerKg": 50,
     "frequency": "6–12 hourly IV",
-    "maxSingleDoseMg": 2000
+    "maxSingleDoseMg": 2000,
+    "warnings": [
+      "⚠ Adjust dose and interval in neonates and premature infants according to gestational age"
+    ]
   },
   {
     "name": "Betamethasone",
     "indication": "Inflammatory skin conditions (topical)",
     "doseMgPerKg": 0.05,
     "frequency": "Apply thinly once or twice daily",
-    "maxSingleDoseMg": 0.5
+    "maxSingleDoseMg": 0.5,
+    "warnings": [
+      "⚠ Use age-based dosing in palliative care: <1 yr (250 mcg 8 hourly), 1–5 yrs (1 mg 8 hourly), etc."
+    ]
   },
   {
     "name": "Biperiden",
     "indication": "Extrapyramidal side effects from antipsychotics",
     "doseMgPerKg": 0.05,
     "frequency": "8–12 hourly",
-    "maxSingleDoseMg": 4
+    "maxSingleDoseMg": 4,
+    "warnings": [
+      "⚠ Use age-specific doses: 1–6 years (2 mg), 7–10 years (3 mg), >10 years (5 mg)"
+    ]
   },
   {
     "name": "Boomslang antivenom",
     "indication": "Boomslang bite envenomation",
     "doseMgPerKg": 1,
     "frequency": "Single dose IV infusion",
-    "maxSingleDoseMg": 1
+    "maxSingleDoseMg": 1,
+    "warnings": [
+      "⚠ Specialist consultation recommended in infants and small children"
+    ]
   },
   {
     "name": "Budesonide",
     "indication": "Persistent asthma",
     "doseMgPerKg": 0.001,
     "frequency": "12 hourly (inhaled)",
-    "maxSingleDoseMg": 200
+    "maxSingleDoseMg": 200,
+    "warnings": [
+      "⚠ Use with spacer device in children <5 years; monitor growth with prolonged use"
+    ]
   },
   {
     "name": "Bupivacaine",
     "indication": "Regional anaesthesia",
     "doseMgPerKg": 2,
     "frequency": "Single or continuous block",
-    "maxSingleDoseMg": 150
+    "maxSingleDoseMg": 150,
+    "warnings": [
+      "⚠ Max dose is 2 mg/kg in infants <12 months, overweight children, or those with liver disease"
+    ]
   },
-
-    {
-      "name": "Caffeine citrate",
-      "indication": "Apnoea of prematurity",
-      "doseMgPerKg": 20,
-      "frequency": "Loading dose, then maintenance every 24 hours",
-      "maxSingleDoseMg": 20
-    },
-    {
-      "name": "Calcium gluconate",
-      "indication": "Symptomatic or acute hypocalcaemia, cardiac membrane stabilisation",
-      "doseMgPerKg": 100,
-      "frequency": "6–8 hourly or as needed in emergencies",
-      "maxSingleDoseMg": 2000
-    },
-    {
-      "name": "Carbamazepine",
-      "indication": "Partial seizures, trigeminal neuralgia",
-      "doseMgPerKg": 5,
-      "frequency": "8–12 hourly",
-      "maxSingleDoseMg": 400
-    },
-    {
-      "name": "Chlorpheniramine",
-      "indication": "Allergic rhinitis, urticaria",
-      "doseMgPerKg": 0.1,
-      "frequency": "8 hourly",
-      "maxSingleDoseMg": 4
-    },
-    {
-      "name": "Ciprofloxacin",
-      "indication": "Multidrug-resistant infections (specialist use)",
-      "doseMgPerKg": 10,
-      "frequency": "12 hourly",
-      "maxSingleDoseMg": 500
-    },
-    {
-      "name": "Clonazepam",
-      "indication": "Seizure control, myoclonic epilepsy",
-      "doseMgPerKg": 0.01,
-      "frequency": "8–12 hourly",
-      "maxSingleDoseMg": 2
-    },
-    {
-      "name": "Clotrimazole",
-      "indication": "Topical fungal infections",
-      "doseMgPerKg": 0.1,
-      "frequency": "Apply twice daily",
-      "maxSingleDoseMg": 1
-    },
-    {
-      "name": "Cotrimoxazole",
-      "indication": "Pneumocystis pneumonia, HIV prophylaxis",
-      "doseMgPerKg": 6,
-      "frequency": "12 hourly",
-      "maxSingleDoseMg": 240
-    },
-    {
-      "name": "Cyanocobalamin (Vitamin B12)",
-      "indication": "Vitamin B12 deficiency",
-      "doseMgPerKg": 0.01,
-      "frequency": "Once daily or weekly depending on severity",
-      "maxSingleDoseMg": 1
-    },
-    {
-      "name": "Dexamethasone",
-      "indication": "Croup, cerebral oedema, inflammation",
-      "doseMgPerKg": 0.15,
-      "frequency": "6–12 hourly",
-      "maxSingleDoseMg": 10
-    },
-    {
-      "name": "Dexchlorpheniramine",
-      "indication": "Allergic conditions",
-      "doseMgPerKg": 0.1,
-      "frequency": "6–8 hourly",
-      "maxSingleDoseMg": 2
-    },
-    {
-      "name": "Dextrose 10%",
-      "indication": "Neonatal or paediatric hypoglycaemia",
-      "doseMgPerKg": 250,
-      "frequency": "As needed (bolus), then infusion",
-      "maxSingleDoseMg": 500
-    },
-    {
-      "name": "Diazepam",
-      "indication": "Seizures, status epilepticus, sedation",
-      "doseMgPerKg": 0.3,
-      "frequency": "As needed",
-      "maxSingleDoseMg": 10
-    },
-    {
-      "name": "Diclofenac",
-      "indication": "Moderate pain, inflammation",
-      "doseMgPerKg": 1,
-      "frequency": "8 hourly",
-      "maxSingleDoseMg": 75
-    },
-    {
-      "name": "Digoxin",
-      "indication": "Heart failure, supraventricular tachycardia",
-      "doseMgPerKg": 0.01,
-      "frequency": "12 hourly (with loading)",
-      "maxSingleDoseMg": 0.25
-    },
-    {
-      "name": "Dimenhydrinate",
-      "indication": "Motion sickness, nausea and vomiting",
-      "doseMgPerKg": 1,
-      "frequency": "8 hourly",
-      "maxSingleDoseMg": 50
-    },
-    {
-      "name": "Diphenhydramine",
-      "indication": "Allergic reactions, anaphylaxis adjunct",
-      "doseMgPerKg": 1,
-      "frequency": "8 hourly",
-      "maxSingleDoseMg": 50
-    },
-    {
-      "name": "Doxycycline",
-      "indication": "Atypical pneumonia, rickettsial infections (age >8 years)",
-      "doseMgPerKg": 2.2,
-      "frequency": "12 hourly",
-      "maxSingleDoseMg": 100
-    }
-,
+  {
+    "name": "Caffeine citrate",
+    "indication": "Apnoea of prematurity",
+    "doseMgPerKg": 20,
+    "frequency": "Loading dose, then maintenance every 24 hours",
+    "maxSingleDoseMg": 20,
+    "warnings": [
+      "⚠ Indicated only for preterm infants with apnoea of prematurity; not for term infants"
+    ]
+  },
+  {
+    "name": "Calcium gluconate",
+    "indication": "Symptomatic or acute hypocalcaemia, cardiac membrane stabilisation",
+    "doseMgPerKg": 100,
+    "frequency": "6–8 hourly or as needed in emergencies",
+    "maxSingleDoseMg": 2000
+  },
+  {
+    "name": "Carbamazepine",
+    "indication": "Partial seizures, trigeminal neuralgia",
+    "doseMgPerKg": 5,
+    "frequency": "8–12 hourly",
+    "maxSingleDoseMg": 400,
+    "warnings": [
+      "⚠ Avoid in patients with absence or myoclonic seizures",
+      "⚠ Avoid in patients on antiretrovirals (e.g., NNRTIs, PIs, InSTIs) due to CYP450 interactions"
+    ]
+  },
+  {
+    "name": "Chlorpheniramine",
+    "indication": "Allergic rhinitis, urticaria",
+    "doseMgPerKg": 0.1,
+    "frequency": "8 hourly",
+    "maxSingleDoseMg": 4,
+    "warnings": [
+      "⚠ Use with caution in children <2 years due to risk of sedation and respiratory depression"
+    ]
+  },
+  {
+    "name": "Ciprofloxacin",
+    "indication": "Multidrug-resistant infections (specialist use)",
+    "doseMgPerKg": 10,
+    "frequency": "12 hourly",
+    "maxSingleDoseMg": 500,
+    "warnings": [
+      "⚠ Use with caution in children due to risk of arthropathy; restrict to specialist indications"
+    ]
+  },
+  {
+    "name": "Clonazepam",
+    "indication": "Seizure control, myoclonic epilepsy",
+    "doseMgPerKg": 0.01,
+    "frequency": "8–12 hourly",
+    "maxSingleDoseMg": 2,
+    "warnings": [
+      "⚠ Long-term use requires specialist monitoring due to sedation and dependence risk"
+    ]
+  },
+  {
+    "name": "Clotrimazole",
+    "indication": "Topical fungal infections",
+    "doseMgPerKg": 0.1,
+    "frequency": "Apply twice daily",
+    "maxSingleDoseMg": 1
+  },
+  {
+    "name": "Cotrimoxazole",
+    "indication": "Pneumocystis pneumonia, HIV prophylaxis",
+    "doseMgPerKg": 6,
+    "frequency": "12 hourly",
+    "maxSingleDoseMg": 240,
+    "warnings": [
+      "⚠ Use with caution in neonates <6 weeks due to risk of kernicterus from sulfa component"
+    ]
+  },
+  {
+    "name": "Cyanocobalamin (Vitamin B12)",
+    "indication": "Vitamin B12 deficiency",
+    "doseMgPerKg": 0.01,
+    "frequency": "Once daily or weekly depending on severity",
+    "maxSingleDoseMg": 1
+  },
+  {
+    "name": "Dexamethasone",
+    "indication": "Croup, cerebral oedema, inflammation",
+    "doseMgPerKg": 0.15,
+    "frequency": "6–12 hourly",
+    "maxSingleDoseMg": 10,
+    "warnings": [
+      "⚠ Avoid in patients with herpes or measles infection unless benefit outweighs risk"
+    ]
+  },
+  {
+    "name": "Dexchlorpheniramine",
+    "indication": "Allergic conditions",
+    "doseMgPerKg": 0.1,
+    "frequency": "6–8 hourly",
+    "maxSingleDoseMg": 2,
+    "warnings": [
+      "⚠ Use with caution in children <2 years due to sedative and anticholinergic effects"
+    ]
+  },
+  {
+    "name": "Dextrose 10%",
+    "indication": "Neonatal or paediatric hypoglycaemia",
+    "doseMgPerKg": 250,
+    "frequency": "As needed (bolus), then infusion",
+    "maxSingleDoseMg": 500
+  },
+  {
+    "name": "Diazepam",
+    "indication": "Seizures, status epilepticus, sedation",
+    "doseMgPerKg": 0.3,
+    "frequency": "As needed",
+    "maxSingleDoseMg": 10,
+    "warnings": [
+      "⚠ Not recommended for long-term use in children and adolescents",
+      "⚠ Max 5 mg/day for children <5 years; 10 mg/day for >5 years",
+      "⚠ Avoid rectal/IV route in infants <6 months unless in emergency"
+    ]
+  },
+  {
+    "name": "Diclofenac",
+    "indication": "Moderate pain, inflammation",
+    "doseMgPerKg": 1,
+    "frequency": "8 hourly",
+    "maxSingleDoseMg": 75,
+    "warnings": [
+      "⚠ Avoid in children <6 months",
+      "⚠ Caution with dehydration or renal impairment"
+    ]
+  },
+  {
+    "name": "Digoxin",
+    "indication": "Heart failure, supraventricular tachycardia",
+    "doseMgPerKg": 0.01,
+    "frequency": "12 hourly (with loading)",
+    "maxSingleDoseMg": 0.25,
+    "warnings": [
+      "⚠ Close monitoring required in neonates and infants due to narrow therapeutic window"
+    ]
+  },
+  {
+    "name": "Dimenhydrinate",
+    "indication": "Motion sickness, nausea and vomiting",
+    "doseMgPerKg": 1,
+    "frequency": "8 hourly",
+    "maxSingleDoseMg": 50,
+    "warnings": [
+      "⚠ Use not recommended in children <2 years due to anticholinergic toxicity risk"
+    ]
+  },
+  {
+    "name": "Diphenhydramine",
+    "indication": "Allergic reactions, anaphylaxis adjunct",
+    "doseMgPerKg": 1,
+    "frequency": "8 hourly",
+    "maxSingleDoseMg": 50,
+    "warnings": [
+      "⚠ Contraindicated in children <2 years due to respiratory depression risk"
+    ]
+  },
+  {
+    "name": "Doxycycline",
+    "indication": "Atypical pneumonia, rickettsial infections (age >8 years)",
+    "doseMgPerKg": 2.2,
+    "frequency": "12 hourly",
+    "maxSingleDoseMg": 100,
+    "warnings": [
+      "⚠ Contraindicated in children <8 years unless benefit outweighs risk (e.g., RMSF, leptospirosis)",
+      "⚠ Risk of tooth discoloration and enamel hypoplasia"
+    ]
+  },
   {
     "name": "Erythromycin",
     "indication": "Penicillin allergy alternative, pertussis, neonatal conjunctivitis",
     "doseMgPerKg": 10,
     "frequency": "6 hourly",
-    "maxSingleDoseMg": 500
+    "maxSingleDoseMg": 500,
+    "warnings": [
+      "⚠ Use with caution in neonates due to risk of pyloric stenosis, especially with oral erythromycin"
+    ]
   },
   {
     "name": "Ferrous sulphate",
     "indication": "Iron deficiency anaemia",
     "doseMgPerKg": 3,
     "frequency": "Once daily",
-    "maxSingleDoseMg": 200
+    "maxSingleDoseMg": 200,
+    "warnings": [
+      "⚠ Oral iron dosing must be adjusted in children <6 months; use caution to avoid overdose"
+    ]
   },
   {
     "name": "Fluconazole",
     "indication": "Candidiasis, cryptococcal infections",
     "doseMgPerKg": 6,
     "frequency": "Once daily",
-    "maxSingleDoseMg": 400
+    "maxSingleDoseMg": 400,
+    "warnings": [
+      "⚠ Neonatal dosing requires longer intervals (every 72 hrs in first week of life)"
+    ]
   },
   {
     "name": "Fludrocortisone",
     "indication": "Congenital adrenal hyperplasia",
     "doseMgPerKg": 0.0001,
     "frequency": "Once or twice daily",
-    "maxSingleDoseMg": 0.2
+    "maxSingleDoseMg": 0.2,
+    "warnings": [
+      "⚠ Use with caution in neonates; monitor electrolytes and blood pressure closely"
+    ]
   },
   {
     "name": "Flumazenil",
     "indication": "Benzodiazepine overdose reversal",
     "doseMgPerKg": 0.01,
     "frequency": "Single IV dose (may repeat after 1 min)",
-    "maxSingleDoseMg": 0.5
+    "maxSingleDoseMg": 0.5,
+    "warnings": [
+      "⚠ Not recommended for routine use in children due to seizure risk, especially in chronic benzodiazepine users"
+    ]
   },
   {
     "name": "Fluoxetine",
     "indication": "Adolescent depression",
     "doseMgPerKg": 0.25,
     "frequency": "Once daily",
-    "maxSingleDoseMg": 20
+    "maxSingleDoseMg": 20,
+    "warnings": [
+      "⚠ Use generally limited to children ≥8 years; monitor for suicidal ideation"
+    ]
   },
   {
     "name": "Fluticasone",
     "indication": "Persistent asthma (inhaled corticosteroid)",
     "doseMgPerKg": 0.001,
     "frequency": "12 hourly",
-    "maxSingleDoseMg": 250
+    "maxSingleDoseMg": 250,
+    "warnings": [
+      "⚠ Use age-specific dosing: <12 years (1 spray per nostril daily); ≥12 years (2 sprays per nostril daily)",
+      "⚠ Monitor growth with prolonged use in children"
+    ]
   },
   {
     "name": "Folic acid",
@@ -413,15 +581,21 @@
     "indication": "Oedema, congestive cardiac failure",
     "doseMgPerKg": 1,
     "frequency": "8–12 hourly",
-    "maxSingleDoseMg": 40
-  }
-,
+    "maxSingleDoseMg": 40,
+    "warnings": [
+      "⚠ Neonatal and infant doses must be lower; max chronic dose 6 mg/kg/day",
+      "⚠ Risk of ototoxicity at high doses or rapid IV administration"
+    ]
+  },
   {
     "name": "Gentamicin",
     "indication": "Neonatal sepsis, systemic Gram-negative infections",
     "doseMgPerKg": 5,
     "frequency": "Once daily",
-    "maxSingleDoseMg": 400
+    "maxSingleDoseMg": 400,
+    "warnings": [
+      "⚠ Dosing interval and serum level monitoring essential in neonates and preterms due to risk of nephrotoxicity and ototoxicity"
+    ]
   },
   {
     "name": "Glucose (Dextrose 10%)",
@@ -435,28 +609,41 @@
     "indication": "Tinea capitis and other dermatophyte infections",
     "doseMgPerKg": 10,
     "frequency": "Once daily with food",
-    "maxSingleDoseMg": 500
+    "maxSingleDoseMg": 500,
+    "warnings": [
+      "⚠ Not recommended for children under 2 years"
+    ]
   },
   {
     "name": "Haloperidol",
     "indication": "Acute agitation, psychosis",
     "doseMgPerKg": 0.05,
     "frequency": "8–12 hourly",
-    "maxSingleDoseMg": 5
+    "maxSingleDoseMg": 5,
+    "warnings": [
+      "⚠ Use age- and weight-specific dosing: <12 years use 0.01–0.1 mg/kg/day; >12 years max 5 mg/dose",
+      "⚠ Avoid in children under 3 years unless specialist supervised"
+    ]
   },
   {
     "name": "Heparin",
     "indication": "Anticoagulation, catheter patency",
     "doseMgPerKg": 50,
     "frequency": "IV bolus, infusion, or line flush",
-    "maxSingleDoseMg": 5000
+    "maxSingleDoseMg": 5000,
+    "warnings": [
+      "⚠ Neonatal dosing requires careful monitoring of aPTT; risk of bleeding in low-weight infants"
+    ]
   },
   {
     "name": "Hydralazine",
     "indication": "Severe hypertension, hypertensive crisis",
     "doseMgPerKg": 0.3,
     "frequency": "8 hourly (IV/PO)",
-    "maxSingleDoseMg": 20
+    "maxSingleDoseMg": 20,
+    "warnings": [
+      "⚠ Use with caution in neonates and infants due to risk of hypotension"
+    ]
   },
   {
     "name": "Hydrocortisone",
@@ -470,164 +657,242 @@
     "indication": "Sickle cell disease (hospital-level care)",
     "doseMgPerKg": 15,
     "frequency": "Once daily",
-    "maxSingleDoseMg": 1000
+    "maxSingleDoseMg": 1000,
+    "warnings": [
+      "⚠ Requires specialist supervision; dosing adjusted based on age, weight, and blood count response"
+    ]
   },
   {
     "name": "Hyoscine butylbromide",
     "indication": "Abdominal cramping, colic (age >6 yrs)",
     "doseMgPerKg": 0.3,
     "frequency": "8 hourly",
-    "maxSingleDoseMg": 20
-  }
-,
+    "maxSingleDoseMg": 20,
+    "warnings": [
+      "⚠ Not recommended for children under 6 years",
+      "⚠ Use age-based dosing for palliative care: <4 years, 5–11 years, ≥12 years"
+    ]
+  },
   {
     "name": "Insulin (short-acting)",
     "indication": "Diabetic ketoacidosis, Type 1 diabetes mellitus",
     "doseMgPerKg": 0.1,
     "frequency": "Hourly IV infusion (DKA) or per glucose monitoring",
-    "maxSingleDoseMg": 10
+    "maxSingleDoseMg": 10,
+    "warnings": [
+      "⚠ Requires specialist supervision in neonates and infants; risk of hypoglycaemia and electrolyte shifts"
+    ]
   },
   {
     "name": "Insulin (long-acting)",
     "indication": "Basal insulin for Type 1 diabetes",
     "doseMgPerKg": 0.3,
     "frequency": "Once or twice daily",
-    "maxSingleDoseMg": 30
+    "maxSingleDoseMg": 30,
+    "warnings": [
+      "⚠ Use only under paediatric endocrinologist supervision in young children"
+    ]
   },
   {
     "name": "Isoniazid",
     "indication": "TB treatment and prophylaxis",
     "doseMgPerKg": 10,
     "frequency": "Once daily",
-    "maxSingleDoseMg": 300
+    "maxSingleDoseMg": 300,
+    "warnings": [
+      "⚠ Pyridoxine supplementation required in children <5 years, malnourished, or HIV-positive",
+      "⚠ Monitor liver function in infants and neonates"
+    ]
   },
   {
     "name": "Ivermectin",
     "indication": "Scabies, strongyloidiasis (age >15 kg)",
     "doseMgPerKg": 0.2,
     "frequency": "Once, repeat in 7 days if needed",
-    "maxSingleDoseMg": 12
+    "maxSingleDoseMg": 12,
+    "warnings": [
+      "⚠ Not recommended for children weighing <15 kg",
+      "⚠ Avoid in children under 5 years"
+    ]
   },
   {
     "name": "Ketamine",
     "indication": "Procedural sedation, anaesthesia",
     "doseMgPerKg": 1,
     "frequency": "Single IV or IM dose",
-    "maxSingleDoseMg": 100
+    "maxSingleDoseMg": 100,
+    "warnings": [
+      "⚠ Avoid in children with obstructive sleep apnoea",
+      "⚠ IM route is painful; avoid unless necessary"
+    ]
   },
   {
     "name": "Ketoconazole",
     "indication": "Fungal skin infections (topical)",
     "doseMgPerKg": 0.1,
     "frequency": "Apply twice daily",
-    "maxSingleDoseMg": 2
-  }
-,
+    "maxSingleDoseMg": 2,
+    "warnings": [
+      "⚠ Avoid use in children <2 years unless directed by a healthcare provider"
+    ]
+  },
   {
     "name": "Lamivudine",
     "indication": "HIV treatment (NRTI backbone)",
     "doseMgPerKg": 4,
     "frequency": "12 hourly",
-    "maxSingleDoseMg": 150
+    "maxSingleDoseMg": 150,
+    "warnings": [
+      "⚠ Dose and formulation must be adjusted in children <3 months",
+      "⚠ Adult dosing applies only ≥30 kg or ≥10 years"
+    ]
   },
   {
     "name": "Levetiracetam",
     "indication": "Partial and generalised seizures",
     "doseMgPerKg": 10,
     "frequency": "12 hourly",
-    "maxSingleDoseMg": 1000
+    "maxSingleDoseMg": 1000,
+    "warnings": [
+      "⚠ Use age-specific dosing: 1–6 months, ≥6 months to <4 years, ≥4 years",
+      "⚠ Start low and titrate gradually in younger children"
+    ]
   },
   {
     "name": "Lopinavir/ritonavir (LPV/r)",
     "indication": "HIV treatment",
     "doseMgPerKg": 12,
     "frequency": "12 hourly",
-    "maxSingleDoseMg": 400
+    "maxSingleDoseMg": 400,
+    "warnings": [
+      "⚠ Use only in children ≥14 days old and ≥2 kg",
+      "⚠ Oral solution contains alcohol and propylene glycol—monitor for toxicity in neonates"
+    ]
   },
   {
     "name": "Lorazepam",
     "indication": "Status epilepticus",
     "doseMgPerKg": 0.05,
     "frequency": "As needed (IV/IM)",
-    "maxSingleDoseMg": 4
+    "maxSingleDoseMg": 4,
+    "warnings": [
+      "⚠ Neonatal use requires dose adjustment and cardiorespiratory monitoring"
+    ]
   },
   {
     "name": "Magnesium sulphate",
     "indication": "Severe asthma, seizures",
     "doseMgPerKg": 25,
     "frequency": "Single IV dose or infusion",
-    "maxSingleDoseMg": 2000
+    "maxSingleDoseMg": 2000,
+    "warnings": [
+      "⚠ IV use requires close monitoring for respiratory depression and hypotension in infants"
+    ]
   },
   {
     "name": "Metformin",
     "indication": "Type 2 diabetes mellitus",
     "doseMgPerKg": 10,
     "frequency": "12 hourly with meals",
-    "maxSingleDoseMg": 850
+    "maxSingleDoseMg": 850,
+    "warnings": [
+      "⚠ Not recommended for children <10 years",
+      "⚠ Use only in overweight/obese adolescents with insulin resistance under supervision"
+    ]
   },
   {
     "name": "Metronidazole",
     "indication": "Anaerobic infections, amoebiasis",
     "doseMgPerKg": 7.5,
     "frequency": "8 hourly",
-    "maxSingleDoseMg": 500
+    "maxSingleDoseMg": 500,
+    "warnings": [
+      "⚠ Use reduced frequency in neonates due to immature hepatic metabolism"
+    ]
   },
   {
     "name": "Morphine",
     "indication": "Moderate to severe pain, palliative care",
     "doseMgPerKg": 0.1,
     "frequency": "4 hourly",
-    "maxSingleDoseMg": 10
+    "maxSingleDoseMg": 10,
+    "warnings": [
+      "⚠ Use age- and route-specific dosing: neonates, infants, and children have different bolus and infusion needs",
+      "⚠ Risk of respiratory depression in neonates and opioid-naive children"
+    ]
   },
   {
     "name": "Mupirocin",
     "indication": "Topical skin infections (e.g. impetigo)",
     "doseMgPerKg": 0.1,
     "frequency": "Apply 2–3 times daily",
-    "maxSingleDoseMg": 1
+    "maxSingleDoseMg": 1,
+    "warnings": [
+      "⚠ Not recommended in infants <2 months unless directed by a healthcare provider"
+    ]
   },
   {
     "name": "Naloxone",
     "indication": "Opioid overdose reversal",
     "doseMgPerKg": 0.01,
     "frequency": "Repeat every 2–3 minutes as needed",
-    "maxSingleDoseMg": 2
+    "maxSingleDoseMg": 2,
+    "warnings": [
+      "⚠ Shorter duration of action than most opioids; observe child for at least 12 hours post-administration",
+      "⚠ Use with caution in neonates; withdrawal symptoms may be severe"
+    ]
   },
   {
     "name": "Nevirapine",
     "indication": "HIV treatment or postnatal prophylaxis",
     "doseMgPerKg": 15,
     "frequency": "Once or twice daily depending on regimen",
-    "maxSingleDoseMg": 200
+    "maxSingleDoseMg": 200,
+    "warnings": [
+      "⚠ Dose is age- and weight-specific: different for birth to 6 weeks, 6 weeks–6 months, 6–9 months, and >9 months",
+      "⚠ Increased risk of severe rash and hepatotoxicity in infants <6 weeks"
+    ]
   },
   {
     "name": "Nifedipine",
     "indication": "Hypertension, hypertensive emergencies",
     "doseMgPerKg": 0.25,
     "frequency": "8–12 hourly",
-    "maxSingleDoseMg": 10
+    "maxSingleDoseMg": 10,
+    "warnings": [
+      "⚠ Use with caution in infants; limited data on safety and efficacy under 1 year of age"
+    ]
   },
   {
     "name": "Nitrofurantoin",
     "indication": "Urinary tract infections",
     "doseMgPerKg": 1.5,
     "frequency": "6 hourly with food",
-    "maxSingleDoseMg": 100
+    "maxSingleDoseMg": 100,
+    "warnings": [
+      "⚠ Contraindicated in infants <1 month due to risk of haemolytic anaemia"
+    ]
   },
   {
     "name": "Nystatin",
     "indication": "Oral and skin candidiasis",
     "doseMgPerKg": 100000,
     "frequency": "4–6 hourly (oral suspension or topical)",
-    "maxSingleDoseMg": 500000
-  }
-,
+    "maxSingleDoseMg": 500000,
+    "warnings": [
+      "⚠ Use oral suspension carefully in neonates to avoid aspiration"
+    ]
+  },
   {
     "name": "Ondansetron",
     "indication": "Nausea and vomiting (chemotherapy, post-op)",
     "doseMgPerKg": 0.15,
     "frequency": "8 hourly as needed",
-    "maxSingleDoseMg": 8
+    "maxSingleDoseMg": 8,
+    "warnings": [
+      "⚠ Use with caution in infants <6 months; limited safety data",
+      "⚠ Monitor QT interval in all age groups with repeated dosing"
+    ]
   },
   {
     "name": "Oral rehydration solution (ORS)",
@@ -641,169 +906,255 @@
     "indication": "Seizures, status epilepticus, neonatal convulsions",
     "doseMgPerKg": 5,
     "frequency": "Once or twice daily",
-    "maxSingleDoseMg": 200
+    "maxSingleDoseMg": 200,
+    "warnings": [
+      "⚠ Not recommended as maintenance therapy for children >2 years due to cognitive side effects",
+      "⚠ Still used in neonates and infants under 6 months for acute seizure control"
+    ]
   },
   {
     "name": "Phenytoin",
     "indication": "Tonic-clonic seizures, status epilepticus",
     "doseMgPerKg": 15,
     "frequency": "Loading then once or twice daily maintenance",
-    "maxSingleDoseMg": 1000
+    "maxSingleDoseMg": 1000,
+    "warnings": [
+      "⚠ Avoid in neonates and preterm infants unless under specialist supervision",
+      "⚠ Risk of hypotension and arrhythmias with IV bolus"
+    ]
   },
   {
     "name": "Piperacillin/tazobactam",
     "indication": "Broad-spectrum antibiotic for hospital infections",
     "doseMgPerKg": 100,
     "frequency": "8 hourly (IV)",
-    "maxSingleDoseMg": 4000
+    "maxSingleDoseMg": 4000,
+    "warnings": [
+      "⚠ Neonatal and infant dosing requires careful adjustment due to immature renal clearance"
+    ]
   },
   {
     "name": "Prednisone",
     "indication": "Asthma, nephrotic syndrome, inflammatory conditions",
     "doseMgPerKg": 2,
     "frequency": "Once or twice daily",
-    "maxSingleDoseMg": 60
+    "maxSingleDoseMg": 60,
+    "warnings": [
+      "⚠ Max dose by age for croup: <2 years (20 mg), 2–5 years (30 mg), 6–12 years (40 mg)",
+      "⚠ Prolonged use may cause growth suppression and adrenal suppression"
+    ]
   },
   {
     "name": "Promethazine",
     "indication": "Allergic reactions, nausea (age >2 years)",
     "doseMgPerKg": 0.5,
     "frequency": "12 hourly",
-    "maxSingleDoseMg": 25
+    "maxSingleDoseMg": 25,
+    "warnings": [
+      "⚠ Contraindicated in children <2 years due to risk of fatal respiratory depression",
+      "⚠ Avoid oral use in children <6 years when possible"
+    ]
   },
   {
     "name": "Propranolol",
     "indication": "Hypertension, arrhythmias, thyrotoxicosis",
     "doseMgPerKg": 1,
     "frequency": "8–12 hourly",
-    "maxSingleDoseMg": 40
+    "maxSingleDoseMg": 40,
+    "warnings": [
+      "⚠ Contraindicated in children with asthma or bradycardia",
+      "⚠ Use with caution in infants and monitor for hypoglycaemia"
+    ]
   },
   {
     "name": "Pyridoxine",
     "indication": "Isoniazid toxicity prophylaxis or deficiency",
     "doseMgPerKg": 1,
     "frequency": "Once daily",
-    "maxSingleDoseMg": 50
-  }
-,
+    "maxSingleDoseMg": 50,
+    "warnings": [
+      "⚠ Dose is age-based in TB protocols: <5 years (12.5 mg), ≥5 years (25 mg)"
+    ]
+  },
   {
     "name": "Rifampicin",
     "indication": "Tuberculosis treatment and prophylaxis",
     "doseMgPerKg": 15,
     "frequency": "Once daily",
-    "maxSingleDoseMg": 600
+    "maxSingleDoseMg": 600,
+    "warnings": [
+      "⚠ Dosing and duration depend on age and weight band",
+      "⚠ Requires monitoring of liver function in young children"
+    ]
   },
   {
     "name": "Risperidone",
     "indication": "Behavioural disorders, psychosis, autism spectrum disorders",
     "doseMgPerKg": 0.025,
     "frequency": "Once or twice daily",
-    "maxSingleDoseMg": 2
+    "maxSingleDoseMg": 2,
+    "warnings": [
+      "⚠ Not recommended for children <5 years",
+      "⚠ Use weight-based dosing for children: e.g., <20 kg (start 0.25 mg), >20 kg (start 0.5 mg)",
+      "⚠ Monitor for extrapyramidal symptoms and weight gain"
+    ]
   },
   {
     "name": "Salbutamol",
     "indication": "Acute bronchospasm, asthma",
     "doseMgPerKg": 0.15,
     "frequency": "4–6 hourly via nebuliser or inhaler",
-    "maxSingleDoseMg": 5
+    "maxSingleDoseMg": 5,
+    "warnings": [
+      "⚠ Spacer device recommended in children <5 years"
+    ]
   },
   {
     "name": "Sodium bicarbonate",
     "indication": "Severe metabolic acidosis, DKA, hyperkalaemia",
     "doseMgPerKg": 1,
     "frequency": "Single IV dose or infusion depending on pH",
-    "maxSingleDoseMg": 100
+    "maxSingleDoseMg": 100,
+    "warnings": [
+      "⚠ Use with caution in neonates and small infants",
+      "⚠ Do not administer concurrently with calcium-containing solutions"
+    ]
   },
   {
     "name": "Sodium valproate",
     "indication": "Epilepsy (generalised or partial seizures)",
     "doseMgPerKg": 20,
     "frequency": "12 hourly",
-    "maxSingleDoseMg": 1000
+    "maxSingleDoseMg": 1000,
+    "warnings": [
+      "⚠ Avoid in adolescent girls and preadolescent females unless no alternatives exist",
+      "⚠ Monitor liver function in children <2 years"
+    ]
   },
   {
     "name": "Spironolactone",
     "indication": "Nephrotic syndrome, congestive heart failure",
     "doseMgPerKg": 2,
     "frequency": "Once or twice daily",
-    "maxSingleDoseMg": 100
+    "maxSingleDoseMg": 100,
+    "warnings": [
+      "⚠ Hyperkalaemia risk is higher in neonates and infants—monitor electrolytes"
+    ]
   },
   {
     "name": "Streptomycin",
     "indication": "Drug-resistant TB (specialist use)",
     "doseMgPerKg": 15,
     "frequency": "Once daily IM",
-    "maxSingleDoseMg": 1000
+    "maxSingleDoseMg": 1000,
+    "warnings": [
+      "⚠ Avoid in neonates and infants unless benefits outweigh risks due to ototoxicity"
+    ]
   },
   {
     "name": "Sulfasalazine",
     "indication": "Juvenile idiopathic arthritis, inflammatory bowel disease",
     "doseMgPerKg": 40,
     "frequency": "12 hourly",
-    "maxSingleDoseMg": 1000
+    "maxSingleDoseMg": 1000,
+    "warnings": [
+      "⚠ Contraindicated in children <2 years",
+      "⚠ Monitor for blood dyscrasias and liver toxicity during long-term use"
+    ]
   },
   {
     "name": "Tenofovir",
     "indication": "HIV treatment (in combination regimens)",
     "doseMgPerKg": 8,
     "frequency": "Once daily",
-    "maxSingleDoseMg": 300
+    "maxSingleDoseMg": 300,
+    "warnings": [
+      "⚠ Not recommended for children <10 years or <30 kg",
+      "⚠ Monitor renal function and bone density in adolescents"
+    ]
   },
   {
     "name": "Tetracycline (topical)",
     "indication": "Mild acne vulgaris",
     "doseMgPerKg": 0.1,
     "frequency": "Apply twice daily",
-    "maxSingleDoseMg": 1
+    "maxSingleDoseMg": 1,
+    "warnings": [
+      "⚠ Systemic use of tetracyclines is contraindicated <8 years; topical forms are generally safe"
+    ]
   },
   {
     "name": "Theophylline",
     "indication": "Chronic asthma (specialist only)",
     "doseMgPerKg": 5,
     "frequency": "12 hourly",
-    "maxSingleDoseMg": 300
+    "maxSingleDoseMg": 300,
+    "warnings": [
+      "⚠ Narrow therapeutic index; serum level monitoring essential",
+      "⚠ Dose must be titrated individually; avoid in children <1 year unless under specialist care"
+    ]
   },
   {
     "name": "Timolol (topical)",
     "indication": "Infantile haemangiomas",
     "doseMgPerKg": 0.1,
     "frequency": "Apply once or twice daily",
-    "maxSingleDoseMg": 1
-  }
-,
+    "maxSingleDoseMg": 1,
+    "warnings": [
+      "⚠ Risk of systemic absorption and bradycardia in neonates and infants—monitor closely"
+    ]
+  },
   {
     "name": "Vancomycin",
     "indication": "Serious Gram-positive infections, MRSA",
     "doseMgPerKg": 15,
     "frequency": "6 hourly (IV)",
-    "maxSingleDoseMg": 750
+    "maxSingleDoseMg": 750,
+    "warnings": [
+      "⚠ Neonates require longer dosing intervals (e.g., every 12–18 hrs)",
+      "⚠ Monitor serum levels closely in neonates and infants due to risk of nephrotoxicity"
+    ]
   },
   {
     "name": "Vitamin A",
     "indication": "Vitamin A deficiency, measles",
     "doseMgPerKg": 10,
     "frequency": "Single dose on Day 1 and repeat on Day 2 if needed",
-    "maxSingleDoseMg": 200000
+    "maxSingleDoseMg": 200000,
+    "warnings": [
+      "⚠ Dosing is age- and weight-specific: different doses for <6 months, 6–11 months, and ≥12 months",
+      "⚠ Avoid repeat dosing in neonates unless under specialist direction"
+    ]
   },
   {
     "name": "Vitamin D (Cholecalciferol)",
     "indication": "Nutritional rickets, deficiency",
     "doseMgPerKg": 0.01,
     "frequency": "Once daily",
-    "maxSingleDoseMg": 1000
+    "maxSingleDoseMg": 1000,
+    "warnings": [
+      "⚠ Monitor serum calcium and phosphate levels in neonates and infants during therapy"
+    ]
   },
   {
     "name": "Vitamin K (Phytomenadione)",
     "indication": "Bleeding due to deficiency or prevention in neonates",
     "doseMgPerKg": 0.5,
     "frequency": "Single IM or IV dose",
-    "maxSingleDoseMg": 10
+    "maxSingleDoseMg": 10,
+    "warnings": [
+      "⚠ Dosage and route are age-specific: neonates typically receive 0.5–1 mg IM at birth"
+    ]
   },
   {
     "name": "Zidovudine (AZT)",
     "indication": "HIV treatment and PMTCT",
     "doseMgPerKg": 8,
     "frequency": "12 hourly",
-    "maxSingleDoseMg": 300
+    "maxSingleDoseMg": 300,
+    "warnings": [
+      "⚠ Neonatal dosing is based on gestational age and birth weight: different schedules for <35 weeks and <2.5 kg",
+      "⚠ Adult dose applies only to ≥10 years and ≥30 kg"
+    ]
   }
 ]
