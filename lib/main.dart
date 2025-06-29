@@ -1,6 +1,5 @@
 import 'drug_selection_screen.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 void main() {
   runApp(PaedsDosingApp());
@@ -53,7 +52,7 @@ class _InputScreenState extends State<InputScreen> {
               ),
               SizedBox(height: 20),
               TextFormField(
-                keyboardType: TextInputType.numberWithOptions(decimal: true),
+                keyboardType: TextInputType.text,
                 decoration: InputDecoration(labelText: 'Age'),
                 onChanged: (val) => age = normalizeDecimal(val),
               ),
@@ -69,7 +68,7 @@ class _InputScreenState extends State<InputScreen> {
                 decoration: InputDecoration(labelText: 'Age Unit'),
               ),
               TextFormField(
-                keyboardType: TextInputType.numberWithOptions(decimal: true),
+                keyboardType: TextInputType.text,
                 decoration: InputDecoration(labelText: 'Weight (kg)'),
                 onChanged: (val) => weight = normalizeDecimal(val),
               ),
@@ -82,7 +81,7 @@ class _InputScreenState extends State<InputScreen> {
               ),
               if (isPreterm)
                 TextFormField(
-                  keyboardType: TextInputType.numberWithOptions(decimal: true),
+                  keyboardType: TextInputType.text,
                   decoration:
                   InputDecoration(labelText: 'Gestational Age (weeks)'),
                   onChanged: (val) => gestationalAge = normalizeDecimal(val),
