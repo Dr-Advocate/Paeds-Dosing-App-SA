@@ -33,8 +33,9 @@ class _InputScreenState extends State<InputScreen> {
   bool isPreterm = false;
   String gestationalAge = '';
 
-  final _decimalInputFormatter =
-  FilteringTextInputFormatter.allow(RegExp(r'^\d*\.?\d{0,2}'));
+  String normalizeDecimal(String val) {
+    return val.replaceAll(',', '.');
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -53,9 +54,8 @@ class _InputScreenState extends State<InputScreen> {
               SizedBox(height: 20),
               TextFormField(
                 keyboardType: TextInputType.numberWithOptions(decimal: true),
-                inputFormatters: [_decimalInputFormatter],
                 decoration: InputDecoration(labelText: 'Age'),
-                onChanged: (val) => age = val,
+                onChanged: (val) => age = normalizeDecimal(val),
               ),
               DropdownButtonFormField<String>(
                 value: ageUnit,
@@ -70,9 +70,8 @@ class _InputScreenState extends State<InputScreen> {
               ),
               TextFormField(
                 keyboardType: TextInputType.numberWithOptions(decimal: true),
-                inputFormatters: [_decimalInputFormatter],
                 decoration: InputDecoration(labelText: 'Weight (kg)'),
-                onChanged: (val) => weight = val,
+                onChanged: (val) => weight = normalizeDecimal(val),
               ),
               CheckboxListTile(
                 title: Text('Pre-term neonate?'),
@@ -84,10 +83,9 @@ class _InputScreenState extends State<InputScreen> {
               if (isPreterm)
                 TextFormField(
                   keyboardType: TextInputType.numberWithOptions(decimal: true),
-                  inputFormatters: [_decimalInputFormatter],
                   decoration:
                   InputDecoration(labelText: 'Gestational Age (weeks)'),
-                  onChanged: (val) => gestationalAge = val,
+                  onChanged: (val) => gestationalAge = normalizeDecimal(val),
                 ),
               SizedBox(height: 20),
               ElevatedButton(
