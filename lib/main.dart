@@ -46,6 +46,11 @@ class _InputScreenState extends State<InputScreen> {
           key: _formKey,
           child: Column(
             children: [
+              Image.asset(
+                'assets/images/paeds_logo.png',
+                height: 120,
+              ),
+              SizedBox(height: 20),
               TextFormField(
                 keyboardType: TextInputType.numberWithOptions(decimal: true),
                 inputFormatters: [_decimalInputFormatter],
