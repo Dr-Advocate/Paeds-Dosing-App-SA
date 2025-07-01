@@ -84,22 +84,23 @@ class _ResultScreenState extends State<ResultScreen> {
               SizedBox(height: 20),
               Text("Recommended Dose:", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
               if (_match!.formula.isNotEmpty)
-                Text("Formula: ${_match!.formula}", style: TextStyle(fontSize: 18)),
+                Text("Formula: ${_match!.formula}", style: TextStyle(fontSize: 16, fontStyle: FontStyle.italic)),
               Text(
                 "${_finalDose?.toStringAsFixed(1) ?? '---'} mg per dose, ${_match!.frequency}",
                 style: TextStyle(fontSize: 18),
               ),
               if (_match!.route.isNotEmpty)
                 Text("Route: ${_match!.route}", style: TextStyle(fontSize: 18)),
-              Text("(Max: ${_match!.maxSingleDoseMg} mg"
-                  "${_match!.maxDoseNote.isNotEmpty ? ', ${_match!.maxDoseNote}' : ''})",
-                  style: TextStyle(fontSize: 18)),
+              Text(
+                "(Max: ${_match!.maxSingleDoseMg} mg${_match!.maxDoseNote.isNotEmpty ? ', ${_match!.maxDoseNote}' : ''})",
+                style: TextStyle(fontSize: 18),
+              ),
               SizedBox(height: 20),
               if (_match!.warnings.isNotEmpty)
                 ..._match!.warnings.map((w) => Padding(
                   padding: const EdgeInsets.only(top: 8.0),
                   child: Text(
-                    w,
+                    "⚠ $w",
                     style: TextStyle(
                       color: Colors.red,
                       fontWeight: FontWeight.bold,
