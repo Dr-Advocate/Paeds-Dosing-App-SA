@@ -60,7 +60,7 @@ class _DrugSelectionScreenState extends State<DrugSelectionScreen> {
     return Scaffold(
       appBar: AppBar(title: Text('Select Drug')),
       body: _drugs.isEmpty
-          ? Center(child: Text('No drugs found in JSON Bitch.'))
+          ? Center(child: Text('No drugs found Bitch.'))
           : Column(
         children: [
           Padding(

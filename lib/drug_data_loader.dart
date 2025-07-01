@@ -7,10 +7,10 @@ class Drug {
   final double doseMgPerKg;
   final String frequency;
   final double maxSingleDoseMg;
-  final String formula;
-  final String route;
-  final String maxDoseNote;
   final List<String> warnings;
+  final String? formula;
+  final String? route;
+  final String? maxDoseNote;
 
   Drug({
     required this.name,
@@ -18,10 +18,10 @@ class Drug {
     required this.doseMgPerKg,
     required this.frequency,
     required this.maxSingleDoseMg,
-    required this.formula,
-    required this.route,
-    required this.maxDoseNote,
     this.warnings = const [],
+    this.formula,
+    this.route,
+    this.maxDoseNote,
   });
 
   factory Drug.fromJson(Map<String, dynamic> json) {
@@ -31,12 +31,10 @@ class Drug {
       doseMgPerKg: (json['doseMgPerKg'] as num).toDouble(),
       frequency: json['frequency'] ?? '',
       maxSingleDoseMg: (json['maxSingleDoseMg'] as num).toDouble(),
-      formula: json['formula'] ?? '',
-      route: json['route'] ?? '',
-      maxDoseNote: json['maxDoseNote'] ?? '',
-      warnings: json['warnings'] != null
-          ? List<String>.from(json['warnings'])
-          : [],
+      warnings: json['warnings'] != null ? List<String>.from(json['warnings']) : [],
+      formula: json['formula'],
+      route: json['route'],
+      maxDoseNote: json['maxDoseNote'],
     );
   }
 }
