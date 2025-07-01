@@ -313,7 +313,7 @@
     "doseMgPerKg": 15,
     "formula": "15 mg/kg",
     "frequency": "6 hourly",
-    "route": "oral or rectal",
+    "route": "oral or rectal or IV",
     "maxSingleDoseMg": 1000,
     "maxDoseNote": "per dose",
     "warnings": [

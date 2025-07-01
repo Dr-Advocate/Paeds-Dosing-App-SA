@@ -83,23 +83,28 @@ class _ResultScreenState extends State<ResultScreen> {
                 Text("Gestational Age: ${widget.gestAge} weeks", style: TextStyle(fontSize: 18)),
               SizedBox(height: 20),
               Text("Recommended Dose:", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+
+              // FORCE SHOW FIELDS FOR DEBUGGING
               Text("Formula: ${_match!.formula ?? 'null'}", style: TextStyle(fontSize: 18)),
               Text("Route: ${_match!.route ?? 'null'}", style: TextStyle(fontSize: 18)),
               Text("Max Note: ${_match!.maxDoseNote ?? 'null'}", style: TextStyle(fontSize: 18)),
-              if (_match!.formula != null && _match!.formula!.isNotEmpty)
-                Text("Formula: ${_match!.formula}", style: TextStyle(fontSize: 18)),
+
+              // MAIN DOSE DISPLAY
               Text(
                 "${_finalDose?.toStringAsFixed(1) ?? '---'} mg per dose, ${_match!.frequency}",
                 style: TextStyle(fontSize: 18),
               ),
-              if (_match!.route != null && _match!.route!.isNotEmpty)
-                Text("Route: ${_match!.route}", style: TextStyle(fontSize: 18)),
+
+              // ROUTE + MAX DOSE LINE
               Text(
                 "(Max: ${_match!.maxSingleDoseMg} mg"
                     "${_match!.maxDoseNote != null && _match!.maxDoseNote!.isNotEmpty ? ', ${_match!.maxDoseNote}' : ''})",
                 style: TextStyle(fontSize: 18),
               ),
+
               SizedBox(height: 20),
+
+              // WARNINGS DISPLAY
               if (_match!.warnings.isNotEmpty)
                 ..._match!.warnings.map((w) => Padding(
                   padding: const EdgeInsets.only(top: 8.0),
