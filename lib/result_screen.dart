@@ -83,6 +83,9 @@ class _ResultScreenState extends State<ResultScreen> {
                 Text("Gestational Age: ${widget.gestAge} weeks", style: TextStyle(fontSize: 18)),
               SizedBox(height: 20),
               Text("Recommended Dose:", style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
+              Text("Formula: ${_match!.formula ?? 'null'}", style: TextStyle(fontSize: 18)),
+              Text("Route: ${_match!.route ?? 'null'}", style: TextStyle(fontSize: 18)),
+              Text("Max Note: ${_match!.maxDoseNote ?? 'null'}", style: TextStyle(fontSize: 18)),
               if (_match!.formula != null && _match!.formula!.isNotEmpty)
                 Text("Formula: ${_match!.formula}", style: TextStyle(fontSize: 18)),
               Text(
